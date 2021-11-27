@@ -13,6 +13,6 @@ jobs:
     - name: Sync
       uses: khizerkhan-2316/leetcode-sync@v1.3
       with:
-        github-token: ${{ token }}
+        github-token: ${{ github.token }}
         leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
         leetcode-session: ${{ secrets.LEETCODE_SESSION }}
