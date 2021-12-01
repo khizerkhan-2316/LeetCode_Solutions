@@ -19,7 +19,6 @@ class Solution {
                 
                 if(!(nums[i + 1] == currentNumber + 1)){
                     
-                    System.out.println("True");
                     return currentNumber + 1;
                 } 
             } else if(i == nums.length - 1){
